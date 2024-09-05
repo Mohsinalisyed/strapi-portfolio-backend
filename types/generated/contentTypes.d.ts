@@ -793,7 +793,8 @@ export interface ApiBannerAdBannerAd extends Schema.CollectionType {
   info: {
     singularName: 'banner-ad';
     pluralName: 'banner-ads';
-    displayName: 'Banner Ads';
+    displayName: 'Top Rated Projects';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -801,6 +802,7 @@ export interface ApiBannerAdBannerAd extends Schema.CollectionType {
   attributes: {
     title: Attribute.Text;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    link: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
