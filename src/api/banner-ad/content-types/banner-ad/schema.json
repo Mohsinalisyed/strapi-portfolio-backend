@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_ads",
+  "info": {
+    "singularName": "banner-ad",
+    "pluralName": "banner-ads",
+    "displayName": "Banner Ads"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
