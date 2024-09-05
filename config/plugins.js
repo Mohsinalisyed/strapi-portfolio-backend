@@ -6,8 +6,8 @@ module.exports = ({ env }) => ({
             sites: [
                 {
                     name: 'Site 1',
-                    id: "696e1071-b0f3-42c6-b04b-44d987e7fe7e",
-                    buildHook: "https://syedhassanraza.netlify.app/build_hooks/<hook_id>",
+                    id: "3173f8e0-da92-48ff-9383-b8d28e9b1974",
+                    buildHook: "https://api.netlify.com/build_hooks/66d999cd6f15571f60d7e50a",
                     branch: 'develop' // optional
                 }
             ]
